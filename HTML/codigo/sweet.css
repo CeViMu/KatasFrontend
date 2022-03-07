@@ -1,0 +1,569 @@
+.title{
+    color:hotpink;
+    text-align: center;
+    font-style: oblique;
+    font-size: 60px;
+    font-family: "Homer Simpson UI";
+    font-weight:bolder;
+}
+
+.logo{
+        position:absolute;
+        top: 30px;
+        left: 100x;
+        width: 150px;
+}
+
+.facebook{
+    position:absolute;
+    top: 30px;
+    left: 1100px;
+    width: 20px;
+}
+
+.whatsapp{
+    position:absolute;
+    top: 30px;
+    left: 1140px;
+    width: 20px;
+}
+
+.instagram{
+    position:absolute;
+    top: 30px;
+    left: 1180px;
+    width: 20px;
+}
+
+.descripcion{
+    color:mediumslateblue;
+    text-align: center;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight: 600;
+}
+
+.pastel1{
+    position:absolute;
+    top: 200px;
+    left: 150px;
+    color:blueviolet;
+    text-align:left;
+    font-style:oblique;
+    font-size: 40px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.pasteldeldia{
+    position:absolute;
+    top: 280px;
+    left: 35px;
+    width: 450px;
+}
+
+.fondo2{
+    position:absolute;
+    top: 240px;
+    left: 10px;
+}
+
+.nombre{
+    position:absolute;
+    top: 540px;
+    left: 120px;
+    color:darkturquoise;
+    text-align:left;
+    font-style:oblique;
+    font-size: 40px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+ 
+.dia{
+    position:absolute;
+    top: 600px;
+    left: 100px;
+    color:darkturquoise;
+    text-align:left;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight: 600;
+}
+
+.carrito1{
+    position: absolute;
+    top: 680px;
+    left: 140px;
+}
+
+.especial{
+    position:absolute;
+    top: 280px;
+    left: 800px;
+    width: 400px;
+}
+
+.fondo1{
+    position:absolute;
+    top: 240px;
+    left: 750px;
+}
+
+.pastel2{
+    position:absolute;
+    top: 200px;
+    left: 845px;
+    color:blueviolet;
+    text-align:left;
+    font-style:oblique;
+    font-size: 40px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.nombre2{
+    position:absolute;
+    top: 542px;
+    left: 855px;
+    color:darkturquoise;
+    text-align:left;
+    font-style:oblique;
+    font-size: 40px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.esp{
+    position:absolute;
+    top: 602px;
+    left: 865px;
+    color:darkturquoise;
+    text-align:left;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight: 600;
+}
+
+.carrito2{
+    position: absolute;
+    top: 682px;
+    left: 900px;
+}
+
+.pasteles{
+    color:blueviolet;
+    position:absolute;
+    top: 750px;
+    left: 400px;
+    text-align: center;
+    font-style: oblique;
+    font-size: 40px;
+    font-family: "Homer Simpson UI";
+    font-weight:bolder;
+}
+
+.almendras{
+    position: absolute;
+    top: 830px;
+    left: 10px;
+}
+
+.capu{
+    position: absolute;
+    top: 830px;
+    left: 500px;
+}
+
+.menta{
+    position: absolute;
+    top: 830px;
+    left: 890px;
+}
+
+.nalmendras{
+    position:absolute;
+    top: 1060px;
+    left: 60px;
+    color:darkturquoise;
+    text-align:left;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.ncapu{
+    position:absolute;
+    top: 1060px;
+    left: 550px;
+    color:darkturquoise;
+    text-align:left;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.nmenta{
+    position:absolute;
+    top: 1060px;
+    left: 1000px;
+    color:darkturquoise;
+    text-align:left;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.cono{
+    position: absolute;
+    top: 1130px;
+    left: 10px;
+}
+
+.fresa{
+    position: absolute;
+    top: 1130px;
+    left: 480px;
+}
+
+.frutal{
+    position: absolute;
+    top: 1130px;
+    left: 890px;
+}
+
+.ncono{
+    position:absolute;
+    top: 1360px;
+    left: 60px;
+    color:darkturquoise;
+    text-align:left;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.nfresa{
+    position:absolute;
+    top: 1360px;
+    left: 550px;
+    color:darkturquoise;
+    text-align:left;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.nfrutal{
+    position:absolute;
+    top: 1360px;
+    left: 1000px;
+    color:darkturquoise;
+    text-align:left;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.zanahoria{
+    position: absolute;
+    top: 1430px;
+    left: 10px;
+}
+
+.queso{
+    position: absolute;
+    top: 1430px;
+    left: 480px;
+}
+
+.leches{
+    position: absolute;
+    top: 1430px;
+    left: 890px;
+}
+
+.nzanahoria{
+    position:absolute;
+    top: 1660px;
+    left: 60px;
+    color:darkturquoise;
+    text-align:left;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.nqueso{
+    position:absolute;
+    top: 1660px;
+    left: 550px;
+    color:darkturquoise;
+    text-align:left;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.nleches{
+    position:absolute;
+    top: 1660px;
+    left: 1000px;
+    color:darkturquoise;
+    text-align:left;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.cora{
+    position: absolute;
+    top: 1730px;
+    left: 200px;
+}
+
+.cajeta{
+    position: absolute;
+    top: 1730px;
+    left: 700px;
+}
+
+.ncora{
+    position:absolute;
+    top: 1970px;
+    left: 300px;
+    color:darkturquoise;
+    text-align:left;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.ncajeta{
+    position:absolute;
+    top: 1970px;
+    left: 800px;
+    color:darkturquoise;
+    text-align:left;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.pedido{
+    position:absolute;
+    top: 2150px;
+    left: 600px;
+}
+
+.pedir{
+    position:absolute;
+    top: 2050px;
+    left: 220px;
+    color:blueviolet;
+    font-style:oblique;
+    font-size: 30px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.tpedido{
+    color:hotpink;
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+    font-family: "Homer Simpson UI";
+    font-weight:bolder;
+}
+
+.Form{
+       color: cadetblue;
+       position:absolute;
+       top:140px;
+       left: 500px;
+       font-style:oblique;
+       font-size: 20px;
+       font-family: "Homer Simpson UI";
+   }
+
+   .form{
+    color: black;
+    position:absolute;
+    top:160px;
+    left: 500px;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+}
+
+.Form1{
+    color: cadetblue;
+    position:absolute;
+    top:200px;
+    left: 500px;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+}
+
+.form1{
+ color: black;
+ position:absolute;
+ top:220px;
+ left: 500px;
+ font-style:oblique;
+ font-size: 20px;
+ font-family: "Homer Simpson UI";
+}
+
+.Form2{
+    color: cadetblue;
+    position:absolute;
+    top:260px;
+    left: 500px;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+}
+
+.form2{
+ color: black;
+ position:absolute;
+ top:280px;
+ left: 500px;
+ font-style:oblique;
+ font-size: 20px;
+ font-family: "Homer Simpson UI";
+}
+
+.Form3{
+    color: cadetblue;
+    position:absolute;
+    top:320px;
+    left: 500px;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+}
+
+.form3{
+ color: black;
+ position:absolute;
+ top:340px;
+ left: 500px;
+ font-style:oblique;
+ font-size: 20px;
+ font-family: "Homer Simpson UI";
+}
+
+
+.elige{
+    color: cadetblue;
+    position:absolute;
+    top:380px;
+    left: 450px;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+   }
+
+
+
+.sn{
+    color:cadetblue;
+    position: absolute;
+    top:710px;
+    left:450px;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+}
+
+.direccion{
+    position: absolute;
+    top: 2300px;
+    left: 0px;
+}
+
+.dir{
+    position:absolute;
+    top: 2320px;
+    left: 100px;
+    color:brown;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+
+.dir1{
+    position:absolute;
+    top: 2320px;
+    left: 700px;
+    color:brown;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.tabla{
+    position:absolute;
+    top: 220px;
+    left: 240px;
+    color:black;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+    border-color: black;
+}
+
+.pedidos{
+    position:absolute;
+    top: 130px;
+    left: 600px;
+    color:green;
+    font-style:oblique;
+    font-size: 40px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.dispo{
+    position:absolute;
+    top: 450px;
+    left: 460px;
+    color:green;
+    font-style:oblique;
+    font-size: 40px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+}
+
+.tabla1{
+    position:absolute;
+    top: 550px;
+    left: 440px;
+    color:black;
+    font-style:oblique;
+    font-size: 20px;
+    font-family: "Homer Simpson UI";
+    font-weight:bold;
+    border-color: black;
+}

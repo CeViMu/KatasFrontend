@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> <!--tipos de metadata. set de caracteres, es este caso los del ingles-->
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"> <!--Para hacerlo equivalente con internet explorer y edge-->
+        <meta name="viewport" content="with-device-widht, initial-scale=1.0"> <!--La pagina se ve con el zoom que le pongamos-->
+        <title>Hacer pedido</title>
+        <link rel="stylesheet" href="./sweet.css">
+        <style>
+            body{
+                background-color:rgba(240, 205,255,0.8);  
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="tpedido">Aquí puedes hacer tu pedido</h1>
+        <img class="logo" src="../imagenes/sweet.png" alt="logo sweet">
+        <img class="facebook" src="../imagenes/facebook.png" alt="logo facebook">
+        <img class="whatsapp" src="../imagenes/whatsapp.png" alt="logo whatsapp">
+        <img class="instagram" src="../imagenes/instagram.png" alt="logo instagram">
+        
+        <form action="pedido.js">
+           <label class="Form" for="Nombre">Escribe tu nombre completo</label><br>
+            <input class="form" type="text"  id="Nombre" name="Nombre">
+
+            <label class="Form1" for="Teléfono">Teléfono</label><br>
+            <input class="form1" type="tel"  id="tel" name="tel"  maxlength="10">
+
+            <label class="Form2" for="Correo">Correo electrónico</label><br>
+            <input class="form2" type="email"  id="corre" name="correo">
+
+            <label class="Form3" for="Correo">Dirección</label><br>
+            <input class="form3" type="text"  id="direccion" name="direccion">
+
+            <section class="elige">
+                <p>Ahora elige el o los pasteles que deseas</p>
+                <input type="checkbox" id="almendras" name="almendras" value="almendras">
+                <label for="almendras">Pastel de almendras</label>
+                <input type="number" id="almendrascuantos" name="almndrascuantos" min="1"><br>
+
+                <input type="checkbox" id="capuchino" name="capuchino" value="capuchino">
+                <label for="capuchino">Pastel de capuchino</label>
+                <input type="number" id="capuchinocuantos" name="capuchinocuantos" min="1"><br>
+
+                <input type="checkbox" id="menta" name="menta" value="menta">
+                <label for="menta">Pastel de chocomenta</label>
+                <input type="number" id="mentacuantos" name="mentacuantos" min="1"><br>
+
+                <input type="checkbox" id="cono" name="cono" value="cono">
+                <label for="cono">Pastel cono de colores</label>
+                <input type="number" id="conocuantos" name="conocuantos" min="1"><br>
+
+                <input type="checkbox" id="fresa" name="fresa" value="fresa">
+                <label for="fresa">Pastel de fresas con crema</label>
+                <input type="number" id="fresacuantos" name="fresacuantos" min="1"><br>
+
+                <input type="checkbox" id="frutal" name="frutal" value="frutal">
+                <label for="frutal">Pastel frutal</label>
+                <input type="number" id="frutalcuantos" name="frutalcuantos" min="1"><br>
+
+                <input type="checkbox" id="zanahoria" name="zanahoria" value="zanahoria">
+                <label for="zanahoria">Pastel de zanahoria</label>
+                <input type="number" id="zanahoriacuantos" name="zanahoriacuantos" min="1"><br>
+
+                <input type="checkbox" id="queso" name="queso" value="queso">
+                <label for="queso">Tarta de queso</label>
+                <input type="number" id="quesocuantos" name="quesocuantos" min="1"><br>
+
+                <input type="checkbox" id="leche" name="leche" value="leche">
+                <label for="leche">Pastel de tres leches</label>
+                <input type="number" id="lechecuantos" name="lechecuantos" min="1"><br>
+
+                <input type="checkbox" id="mil" name="mil" value="mil">
+                <label for="mil">Pastel de mil hojas</label>
+                <input type="number" id="milcuantos" name="milcuantos" min="1"><br>
+
+                <input type="checkbox" id="cajeta" name="cajeta" value="cajeta">
+                <label for="cajeta">Pastel de cajeta</label>
+                <input type="number" id="cajetacuantos" name="cajetacuantos" min="1"><br>
+
+            </section>
+            
+            <section class="sn">
+                <p class="add">¿Deseas agregar un pastel personalizado?</p>
+                <input type="radio" id="Si" name="agregar" value="Si">
+                <label for="Si">Si</label><br>
+                <input type="radio" id="No" name="agregar" value="No">
+                <label for="No">No</label><br>
+
+                <p>Elige el sabor de tu preferencia</p>
+                <select name="sabor" id="sabor">
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Vainilla">Vainilla</option>
+                    <option value="Fresa">Fresa</option>
+                    <option value="Cajeta">Cajeta</option>
+                    <option value="Zanahoria">Zanahoria</option>
+                    <option value="Café">Café</option>
+                    <option value="Capuchino">Capuchino</option>
+                    <option value="Almendra">Almendra</option>
+                    <option value="Menta">Chocomenta</option>
+                </select>
+
+                <p>Puedes elegir un segundo sabor</p>
+                <select name="sabor2" id="sabor2">
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Vainilla">Vainilla</option>
+                    <option value="Fresa">Fresa</option>
+                    <option value="Cajeta">Cajeta</option>
+                    <option value="Zanahoria">Zanahoria</option>
+                    <option value="Café">Café</option>
+                    <option value="Capuchino">Capuchino</option>
+                    <option value="Almendra">Almendra</option>
+                    <option value="Menta">Chocomenta</option>
+                </select>
+
+                <p>Elige el sabor del betun o cubierta</p>
+                <select name="cubierta" id="cubierta">
+                    <option value="Chocolate">Chocolate $50</option>
+                    <option value="Creama de limón">Crema de limón  $55</option>
+                    <option value="Crema de fresa">Crema de fresa  $55</option>
+                    <option value="Cajeta">Cajeta $40</option>
+                    <option value="Crema de zanahoria">Crema de zanahoria  $55</option>
+                    <option value="Café">Café $50</option>
+                    <option value="Capuchino">Capuchino  $55</option>
+                    <option value="Crema de almendras">Crema de almendras  $55</option>
+                    <option value="Chocomenta">Chocomenta $50</option>
+                </select>
+
+                <p>Elige la forma del pastel</p>
+                <select name="forma" id="forma">
+                    <option value="Circulo">Circulo</option>
+                    <option value="Cuadrado">Cuadrado</option>
+                    <option value="Rectangulo">Rectangulo</option>
+                    <option value="Corazón">Corazón</option>
+                </select>
+
+                <p>Elige la decoración</p>
+                <select name="forma" id="forma">
+                    <option value="Fruta">Fruta $40</option>
+                    <option value="Chocolates">Chocolates $60</option>
+                    <option value="Lunetas de chocolate">Lunetas de chocolate  $30</option>
+                    <option value="Figuras de fondan">Figuras de fondan $70</option>
+                </select>
+
+                <p>Elige el relleno</p>
+                <select name="forma" id="forma">
+                    <option value="Fresa">Fresa</option>
+                    <option value="Cajeta">Cajeta</option>
+                    <option value="Almendras">Almendras</option>
+                    <option value="Cacahuate">Cacahuate</option>
+                    <option value="Durazno">Durazno</option>
+                </select>
+                 <p>En el siguiente espacio proporcione una descripción<br>detallada del pastel que desea que elaboremos<br>para usted</p>
+                <input type="text" id="descripcion" name="descripcion">
+                <br><br>
+                <input type="button" id="otro" name="otro" value="Agregar un pastel mas"><br><br>
+                <br>
+                <input type="reset"> <input type="submit">
+                <br><br><br>
+
+            </section>
+
+
+        </form>
+    </body>
+</html>
